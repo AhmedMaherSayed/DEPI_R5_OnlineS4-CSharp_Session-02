@@ -316,6 +316,56 @@
             #endregion
 
             #endregion
+
+
+            #region Loops Statments
+
+            //Console.WriteLine("1");
+            //Console.WriteLine("2");
+            //Console.WriteLine("3");
+            //Console.WriteLine("4");
+            //Console.WriteLine("5");
+            //Console.WriteLine("6");
+            //Console.WriteLine("7");
+            //Console.WriteLine("8");
+            //Console.WriteLine("9");
+            //Console.WriteLine("10");
+
+            //// 1. For
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            // 2. Do While
+            //int x;
+            //bool flag = true;
+
+            //do
+            //{
+            //    Console.WriteLine("Please Enter Even Number");
+            //    flag = int.TryParse(Console.ReadLine(), out  x);
+            //    //if (x % 2 == 0)
+
+            //} while (x % 2 == 1 || !flag);
+
+            // 3. While
+            //int x = 1;
+            //while (x <= 10)
+            //{
+            //    Console.WriteLine(x);
+            //    ++x;
+            //}
+
+            // 4. Foreach
+            //string name = "Ahmed";
+
+            //foreach (char ch in name)
+            //{
+            //    Console.WriteLine(ch);
+            //}
+            #endregion
         }
     }
 }
