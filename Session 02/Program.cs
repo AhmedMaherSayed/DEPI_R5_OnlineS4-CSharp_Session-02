@@ -210,6 +210,20 @@
             #endregion
 
             #endregion
+
+            #region String Formating
+            int X = 4, Y = 2;
+
+            string message = "Equation : " + X + " + " + Y + " = " + (X + Y);
+
+            // String Interpolation
+            //message = string.Format("Equiation : {0} + {1} = {2}", X, Y, X + Y);
+            //Console.WriteLine(message);
+
+            // String Manipulation Operator
+            message = $"Equation : {X} + {Y} = {X + Y}";
+            Console.WriteLine(message);
+            #endregion
         }
     }
 }
