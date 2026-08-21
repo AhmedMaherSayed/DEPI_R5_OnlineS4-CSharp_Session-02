@@ -212,17 +212,109 @@
             #endregion
 
             #region String Formating
-            int X = 4, Y = 2;
+            //int X = 4, Y = 2;
 
-            string message = "Equation : " + X + " + " + Y + " = " + (X + Y);
+            //string message = "Equation : " + X + " + " + Y + " = " + (X + Y);
 
-            // String Interpolation
-            //message = string.Format("Equiation : {0} + {1} = {2}", X, Y, X + Y);
+            //// String Interpolation
+            ////message = string.Format("Equiation : {0} + {1} = {2}", X, Y, X + Y);
+            ////Console.WriteLine(message);
+
+            //// String Manipulation Operator
+            //message = $"Equation : {X} + {Y} = {X + Y}";
             //Console.WriteLine(message);
+            #endregion
 
-            // String Manipulation Operator
-            message = $"Equation : {X} + {Y} = {X + Y}";
-            Console.WriteLine(message);
+            #region Conditional Statments
+            #region If & Switch Ex01
+            //int X;
+            //X = int.Parse(Console.ReadLine());
+            //if (X == 1)
+            //{
+            //    Console.WriteLine("Jan");
+            //}
+            //else if (X == 2)
+            //    Console.WriteLine("Feb");
+            //else if (X == 3)
+            //    Console.WriteLine("Mar");
+            //else
+            //    Console.WriteLine("Not in Q01");
+
+            //switch (X)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Jan");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Feb");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Mar");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Not in Q03");
+            //        break;
+            //}
+
+            #endregion
+
+
+            #region If & Switch Ex02
+
+            //Console.WriteLine("Please Enter Your Name");
+            //string Name = Console.ReadLine();
+            //if(Name == "Ahmed")
+            //    Console.WriteLine("Hello Ahmed");
+            //else if(Name == "Ali")
+            //    Console.WriteLine("Hello Ali");
+            //else if(Name == "Esraa")
+            //    Console.WriteLine("Hello Esraa");
+            //else if(Name == "Mai")
+            //    Console.WriteLine("Hello Mai");
+
+            //switch (Name)
+            //{
+            //    case "Ahmed":
+            //        Console.WriteLine("Hello Ahmed");
+            //        break;
+            //    case "Ali":
+            //        Console.WriteLine("Hello Ali");
+            //        break;
+            //    case "Esraa":
+            //        Console.WriteLine("Hello Esraa");
+            //        break;
+            //    case "Mai":
+            //        Console.WriteLine("Hello Mai");
+            //        break;
+            //}
+            #endregion
+
+            #region Switch Ex02
+
+            //int Value = 3000;
+
+            //switch (Value)
+            //{
+            //    case 3000:
+            //        Console.WriteLine("Option 03");
+            //        Console.WriteLine("Option 02");
+            //        Console.WriteLine("Option 01");
+            //        break;
+            //    case 2000:
+            //        Console.WriteLine("Option 02");
+            //        Console.WriteLine("Option 01");
+            //        break;
+
+            //    case 1000:
+            //        Console.WriteLine("Option 01");
+            //        break;
+            //    default:
+            //        Console.WriteLine("NA");
+            //        break;
+            //}
+
+            #endregion
+
             #endregion
         }
     }
