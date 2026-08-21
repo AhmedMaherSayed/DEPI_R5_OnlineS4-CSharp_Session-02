@@ -85,9 +85,130 @@
             //Console.WriteLine(++X);
 
             // 4. Convert
-            Console.Write("Enter your integer: ");
-            int X = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(++X);
+            //Console.Write("Enter your integer: ");
+            //int X = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(++X);
+            #endregion
+
+            #region Operators
+
+            #region Unary Operator
+            // Unary Operators => works on One Operand (Variable)
+            //int X = 10;
+            // PreFix [Increment and then Print]
+            //Console.WriteLine(++X);
+            // PostFix [Print and then Increment]
+
+            //Console.WriteLine(X++);
+            //Console.WriteLine(X);
+
+            // PreFix [Decrement and then Print]
+            //Console.WriteLine(--X);
+
+            // PostFix [Print and then Decrement]
+            //Console.WriteLine(X--);
+            //Console.WriteLine(X);
+            #endregion
+
+            #region Binary Operators
+            // Binary Operators => Work on Two Operands (Variables)
+            //int Sum, Mul, Div, Sub, Mod;
+            //int Num01 = 2, Num02 = 6;
+            //Sum = Num01 + Num02;
+            //Sub = Num01 - Num02;
+            //Mul = Num01 * Num02;
+            //Div = Num01 / Num02;
+            //Mod = Num01 % Num02;
+
+            #endregion
+
+            #region Assignment Operator
+            //int X;
+            //X = 4;
+            //X += 2; // X = X + 2
+            //X -= 2; // X = X - 2
+            //X *= 2; // X = X * 2
+            //X /= 2; // X = X / 2
+            //X %= 2; // X = X % 2
+            #endregion
+
+
+
+            #region Relational Operators [Comparsion]
+
+            //int X = 6, Y = 5;
+            //Console.WriteLine(X == Y); // Equal
+            //Console.WriteLine(X != Y); // Not Equal
+            //Console.WriteLine(X > Y);  // More Than
+            //Console.WriteLine(X >= Y); // More Than Or Equal
+            //Console.WriteLine(X < Y);  // Less Than
+            //Console.WriteLine(X <= Y); // Less Than Or Equal
+
+
+            #endregion
+
+
+            #region Logical Operators
+
+            //Console.WriteLine(!false);
+            //Console.WriteLine(false && true); // Short Circuit
+            //Console.WriteLine(true || false);
+
+            //Console.WriteLine(4 < 5 && 7 < 9);
+
+            #endregion
+
+
+            #region Bitwise Operators
+
+            //Console.WriteLine(!false);
+            //Console.WriteLine(false & true); // Long Circuit
+            //Console.WriteLine(true | false);
+
+            //Console.WriteLine(4 < 5 & 7 < 9);
+
+            #endregion
+
+            #region Teranry Operator [Conditional Operator]
+
+            //bool Flag = 4 > 2 ? true : false;
+            //Console.WriteLine(Flag);
+            //bool flag = true;
+
+            //Console.ForegroundColor = flag ? ConsoleColor.Green : ConsoleColor.Red;
+
+            //if (flag == true)
+            //    Console.ForegroundColor = ConsoleColor.Green;
+            //else
+            //    Console.ForegroundColor = ConsoleColor.Red;
+
+            //Console.WriteLine("Hello!");
+            #endregion
+
+
+            #region Operator Priorty [Precedence] and Associtvity
+
+            /*
+                     1. Unary Operator (PreFix)
+                     2. Round Braces ()
+                     3. * / %
+                     4. + -
+            */
+
+            //int a = 20;
+            //int b = 10;
+            //int c = 15;
+            //int d = 5;
+            //int e;
+            //e = (a + b) * c / d;     // ( 30 * 15 ) / 5
+
+            //e = ((a + b) * c) / d;   // (30 * 15 ) / 5
+
+            //e = (a + b) * (c / d);   // (30) * (15/5) 
+
+            //e = a + (b * c) / d;    //  20 + (150/5)  
+            #endregion
+
             #endregion
         }
     }
