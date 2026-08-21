@@ -42,12 +42,52 @@
             #endregion
 
             #region Fraction and Discards
-            double X = 12.5;
-            float y = 1.25F;
+            //double X = 12.5;
+            //float y = 1.25F;
 
-            decimal money = 12222.2224M;
+            //decimal money = 12222.2224M;
 
-            money = 1_000_000;
+            //money = 1_000_000;
+            #endregion
+
+            #region Value Type Casting
+            // 1. Implicit Casting (Safe Casting)
+            //int X = int.MaxValue;
+            //long Y = X + 1;
+
+            // 2. Explicit Casting (UnSafe Casting)
+            //long X = int.MaxValue;
+            //X += 100;
+
+            //int Y;
+
+            ////checked
+            ////{
+            ////    Y = (int)X;
+            ////}
+
+            //unchecked
+            //{
+            //    Y = (int)X;
+            //}
+
+            //Console.WriteLine("X = " + X + " Y = " + Y);
+
+            //object x = 12;
+
+            //int Y = (int)x;
+            //Console.WriteLine(Y);
+
+            // 3. Parse
+            //Console.Write("Enter your integer: ");
+            //int X = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine(++X);
+
+            // 4. Convert
+            Console.Write("Enter your integer: ");
+            int X = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(++X);
             #endregion
         }
     }
